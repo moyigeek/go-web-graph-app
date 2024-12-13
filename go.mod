@@ -1,4 +1,4 @@
-module go-web-graph-app
+module github.com/moyigeek/go-web-graph-app
 
 go 1.18
 
