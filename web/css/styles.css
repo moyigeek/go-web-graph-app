@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+#graph-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.node {
+    fill: #3498db;
+    stroke: #2980b9;
+    stroke-width: 2px;
+    cursor: pointer;
+}
+
+.node:hover {
+    fill: #1abc9c;
+}
+
+.edge {
+    stroke: #2c3e50;
+    stroke-width: 1.5px;
+}
+
+.edge:hover {
+    stroke: #e74c3c;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    pointer-events: none;
+    display: none;
+}
